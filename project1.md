@@ -131,3 +131,12 @@ First we change into branch A and run the git command below
 When a new feature is added to an application, it's often done in a feature branch. Usually this feature branch is deleted when the code must have tested and merged into a staging or dev environment depending on the branch strategy of the team.
 
 ![Capture8d](https://github.com/jimoh0163/All-my-projects/assets/140582025/1ed920eb-d495-46f5-935e-a134a0e54218)
+
+
+## Pushing your local git repository to your remote github repository
+
+In previous lesson, we have writting our story in our git repsository. our friend is intrested in contributing to our story but he is unable to do so because we currently have our story locally in our macine
+
+having created a github account and a github repsotiry in earlier steps, lets send a copy of our story to our repository in github
+we will achieve this by the following steps below
+
