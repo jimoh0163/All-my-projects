@@ -140,3 +140,78 @@ In previous lesson, we have writting our story in our git repsository. our frien
 having created a github account and a github repsotiry in earlier steps, lets send a copy of our story to our repository in github
 we will achieve this by the following steps below
 
+![Capturerep](https://github.com/jimoh0163/All-my-projects/assets/140582025/a2a92eb7-195a-4bb6-a4b8-0d3c1a9579dd)
+
+To get the remote link click on the green button code, copy the httpslink. A screenshot is shown below
+
+
+![Capturegit](https://github.com/jimoh0163/All-my-projects/assets/140582025/14ef1d2c-5dcf-4c11-abc4-f0030604fe33)
+
+
+After commiting your changes in your local repo. You push the content to the remote reop using the command below
+
+**`git push origin {branch name}`**
+
+
+![Capturepush](https://github.com/jimoh0163/All-my-projects/assets/140582025/5ff744e4-a4ee-4e18-bef4-fffcc4f31581)
+
+
+The word origin refers to your remote repo link, it elevate to the repo url. it can be any word you choose
+
+## Cloning Remote Git Repository
+
+The git cloning commands helps us make a copy of remote repository in our local machine.
+
+See it as agit tool for downloading remote repository into our local machine. The command is as follows
+
+**`git clone https://github.com/jimoh0163/All-my-projects.git`**
+
+
+![Captureclon](https://github.com/jimoh0163/All-my-projects/assets/140582025/12a97248-3d82-4f64-91b3-4e810de8d0f3)
+
+## Back Management and Tagging
+
+Introduction to Markdown Syntax
+
+Markdown syntax is a lightweight markup language that is widely used for formatting plain text. it allows you to add formatting elements to your text without using complex HTML or other formating languages. Markdown is commonly used for creating documents, README file, forum posts, and even web pages
+
+Here is the most commonly used markdown syntax elements
+
+# Heading 1
+## Heading 2
+### Heading 3
+
+2. Emphasis:asterisks or underscore is used to emphasis text
+   
+
+*italic* or _italic_
+
+**bold** or _bold_
+
+3. Lists:markdown has support for both ordered and unorderd list
+   
+unordered list example:
+
+- item 1
+-item 2
+-item 3
+
+ordered list example
+
+1. first item
+2. second item 
+3.Third item
+
+4. Links:To create a hyperlink,use square brackets for the link text followed by parenthese containing the URL
+
+example
+
+{visit darey.io}(https://www.dare.io)
+
+5. images:To display an images, use an xclamation mark followed by square brackets for all the text and parentheses containing the image URL
+
+![Alt Text](https://example.com/image.jpg
+
+6. code:To display code or code snippets, use backticks(`)to enclose the code
+
+example `console.log('welcome to darey.io')`
